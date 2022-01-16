@@ -26,7 +26,6 @@ import com.google.android.material.snackbar.Snackbar;
 public class Aminity extends AppCompatActivity {
 
     private LinearLayout amenities_linear_layout;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 

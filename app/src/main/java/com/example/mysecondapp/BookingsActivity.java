@@ -65,6 +65,7 @@ public class BookingsActivity extends AppCompatActivity {
         ((FloatingActionButton) findViewById(R.id.checkout_from_booking_btn)).setOnClickListener(v -> {
             // handle click
             Intent receipt = new Intent(BookingsActivity.this,ReceiptActivity.class);
+
             startActivity(receipt);
 
         });

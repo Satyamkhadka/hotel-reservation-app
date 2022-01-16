@@ -10,6 +10,7 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -53,6 +54,7 @@ public class ReceiptActivity extends AppCompatActivity {
         RoomsAndAmenities rms =  RoomsAndAmenities.getInstance();
         ReceiptModel receiptModel = ReceiptModel.getReceiptInstance();
         receiptModel.calculateGrandTotal();
+
 
         TextView heading=new TextView(this);
         heading.setGravity(Gravity.CENTER);

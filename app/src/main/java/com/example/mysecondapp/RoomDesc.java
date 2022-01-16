@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.mysecondapp.model.RoomModel;
@@ -54,6 +55,8 @@ public class RoomDesc extends AppCompatActivity {
             ((TextView)findViewById(R.id.desc_room_brief)).setText(rm.getBrief());
             ((TextView)findViewById(R.id.desc_room_price)).setText("$"+rm.getCostPerDay());
             ((TextView)findViewById(R.id.desc_room_desc)).setText(rm.getDescription());
+            ((ImageView)findViewById(R.id.desc_room_img)).setImageResource(rm.getImage());
+
         }else {
             finish();
             super.onBackPressed();

@@ -3,6 +3,7 @@ package com.example.mysecondapp.model;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -19,6 +20,16 @@ public class RoomModel {
     private  int costPerDay;
     private boolean booked;
     private boolean available;
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
+
+    private int image;
 
     public boolean isAvailable() {
         return available;
@@ -109,6 +120,7 @@ public RoomModel(String roomTitle,String brief,String description,int rating,int
     this.roomCode = "A"+(this.id*100);
     this.available=true;
     this.booked=false;
+    this.image = R.drawable.hotel; // default image
 }
     @Override()
     public boolean equals(Object other) {
@@ -127,6 +139,7 @@ public RoomModel(String roomTitle,String brief,String description,int rating,int
         ((TextView)room_listing_obj.findViewById(R.id.list_room_price)).setText("$"+this.costPerDay);
         ((TextView)room_listing_obj.findViewById(R.id.list_room_title)).setText(this.roomTitle);
         ((TextView)room_listing_obj.findViewById(R.id.list_room_brief)).setText(this.brief);
+        ((ImageView)room_listing_obj.findViewById(R.id.card_view_image)).setImageResource(this.image);
         if(this.available){
         ((Button)room_listing_obj.findViewById(R.id.list_add_to_selection_btn)).setText(this.booked?"Booked!":"Add to Booking");
 
@@ -146,7 +159,7 @@ public RoomModel(String roomTitle,String brief,String description,int rating,int
             return null;
         }
         room_booking_obj = (CardView) inflater.inflate(R.layout.booking_list_item, null);
-        ((TextView)room_booking_obj.findViewById(R.id.booking_title_list)).setText(this.roomCode+":"+this.roomTitle+"@$"+this.costPerDay+this.isBooked());
+        ((TextView)room_booking_obj.findViewById(R.id.booking_title_list)).setText(this.roomCode+":"+this.roomTitle+"@$"+this.costPerDay);
         Log.e("Room","returning room");
 
         return room_booking_obj;
