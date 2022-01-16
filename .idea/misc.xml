@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.20833333333333334" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout/activity_aminity.xml" value="0.17175925925925925" />
+        <entry key="app/src/main/res/layout/activity_bookings.xml" value="0.17175925925925925" />
+        <entry key="app/src/main/res/layout/activity_bottom_navigation.xml" value="0.17175925925925925" />
+        <entry key="app/src/main/res/layout/activity_display_message.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_receipt.xml" value="0.17175925925925925" />
+        <entry key="app/src/main/res/layout/activity_room.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/activity_room_desc.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_rooms.xml" value="0.17175925925925925" />
+        <entry key="app/src/main/res/layout/activity_test_activity.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/amenitycard.xml" value="0.17175925925925925" />
+        <entry key="app/src/main/res/layout/booking_list_item.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/bottom_navigation.xml" value="0.17175925925925925" />
+        <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.17175925925925925" />
+        <entry key="app/src/main/res/layout/receipt_layout.xml" value="0.17175925925925925" />
+        <entry key="app/src/main/res/layout/roomcard.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/test.xml" value="0.2" />
+        <entry key="app/src/main/res/menu/activity_bottom_navigation.xml" value="0.16940639269406393" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
