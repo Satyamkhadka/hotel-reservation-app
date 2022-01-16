@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="vertical_search">10dp</dimen>
+    <dimen name="card_radius">14dp</dimen>
+    <dimen name="horizontal_card">8dp</dimen>
+    <dimen name="d_number_courses">11sp</dimen>
+    <dimen name="top_text_card">14dp</dimen>
+    <dimen name="top_text_subtitle_card">4dp</dimen>
+    <dimen name="img_card_height">120dp</dimen>
+    <dimen name="normalPadding">20dp</dimen>
+</resources>
